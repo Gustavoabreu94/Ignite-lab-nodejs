@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
-import { MailService } from './mail/mail.service';
-import { SMTPMailService } from './mail/smtp-maill.service';
-import { PrismaService } from './prisma.service';
+import { AppController } from './infra/app.controller';
+import { AppService } from './infra/app.service';
+import { MailService } from './infra/mail/mail.service';
+import { SMTPMailService } from './infra/mail/smtp-maill.service';
+import { PrismaService } from './infra/prisma.service';
 
 @Module({
   imports: [],
