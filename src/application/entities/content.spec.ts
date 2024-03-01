@@ -16,4 +16,5 @@ describe('Notification content' , ()=> {
     
         expect(()=>  new Content('a'.repeat(241)) ).toThrow();
     })
+    
 })

@@ -1,7 +1,7 @@
 export class Content {
     private readonly content:string;
 
-    get valeu(): string{
+    get value(): string{
         return this.content;
     }
 
